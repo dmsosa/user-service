@@ -1,9 +1,8 @@
-package com.duvi.authservice.controller;
+package com.duvi.blogservice.controller;
 
-import com.duvi.authservice.config.TokenService;
-import com.duvi.authservice.model.*;
-import com.duvi.authservice.repository.UserRepository;
-import com.duvi.authservice.service.UserService;
+import com.duvi.blogservice.config.TokenService;
+import com.duvi.blogservice.model.*;
+import com.duvi.blogservice.service.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -1,4 +1,4 @@
-package com.duvi.authservice.model;
+package com.duvi.blogservice.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

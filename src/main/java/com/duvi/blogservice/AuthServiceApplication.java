@@ -1,4 +1,4 @@
-package com.duvi.authservice;
+package com.duvi.blogservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

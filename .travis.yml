@@ -1,10 +1,13 @@
 dist: trusty
 
 language: java
-
+env:
+  DB=POST
 jdk: oraclejdk21
 before_install:
   - echo ${TRAVIS_BRANCH}
-  - echo ${COMMIT}
+  - echo ${TRAVIS_COMMIT}
+  - echo ${DB}
   - chmod +x ./mvnw
+
   

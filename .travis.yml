@@ -9,5 +9,6 @@ before_install:
   - echo ${TRAVIS_COMMIT}
   - echo ${DB}
   - chmod +x ./mvnw
-
+after_failure:
+  - echo ${TRAVIS_TEST_RESULT}
   

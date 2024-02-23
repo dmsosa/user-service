@@ -17,7 +17,7 @@ import org.springframework.security.core.Authentication;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.web.bind.annotation.*;
 
-@CrossOrigin(origins = {"*"})
+@CrossOrigin(origins = "http://localhost:5173", allowCredentials = "true")
 @Slf4j
 @RestController
 @RequestMapping("/api/auth")
@@ -56,7 +56,7 @@ public class AuthController {
     @PostMapping("/register")
     public ResponseEntity<User> registerUser(@RequestBody RegisterDTO registerDTO) throws Exception {
         if (userService.existsByUsername(registerDTO.username())) {
-            throw new Exception("exists by Username");
+            throw new Exception("exists by Usernamee");
         } else if (userService.existsByEmail(registerDTO.email())) {
             throw new Exception("exists by Email");
         }

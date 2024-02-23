@@ -1,7 +1,6 @@
-package com.duvi.authservice.config;
+package com.duvi.blogservice.config;
 
-import com.duvi.authservice.repository.UserRepository;
-import com.duvi.authservice.service.AuthenticationService;
+import com.duvi.blogservice.service.AuthenticationService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
@@ -15,7 +14,6 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
 
 import java.io.IOException;
-import java.net.http.HttpHeaders;
 
 @Component
 public class SecurityFilter extends OncePerRequestFilter {

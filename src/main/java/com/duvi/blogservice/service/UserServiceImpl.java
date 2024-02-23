@@ -1,7 +1,7 @@
-package com.duvi.authservice.service;
+package com.duvi.blogservice.service;
 
-import com.duvi.authservice.model.User;
-import com.duvi.authservice.repository.UserRepository;
+import com.duvi.blogservice.model.User;
+import com.duvi.blogservice.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

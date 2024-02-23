@@ -1,9 +1,7 @@
-package com.duvi.authservice.service;
+package com.duvi.blogservice.service;
 
-import com.duvi.authservice.model.User;
+import com.duvi.blogservice.model.User;
 import org.springframework.stereotype.Service;
-
-import java.util.Optional;
 
 @Service
 public interface UserService {

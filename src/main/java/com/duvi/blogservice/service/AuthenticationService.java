@@ -1,8 +1,7 @@
-package com.duvi.authservice.service;
+package com.duvi.blogservice.service;
 
-import com.duvi.authservice.repository.UserRepository;
+import com.duvi.blogservice.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Bean;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;

@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.duvi</groupId>
-	<artifactId>auth-service</artifactId>
+	<artifactId>blog-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>auth-service</name>
-	<description>Security for our MyEssen Microservices Project</description>
+	<name>blog-service</name>
+	<description>Blog Service for our MyEssen Microservices Project</description>
 	<properties>
 		<java.version>21</java.version>
 		<spring-cloud.version>2022.0.4</spring-cloud.version>
